@@ -1,4 +1,4 @@
-# TP — Conteneuriser une mini API Flask
+# TP — Conteneuriser une mini API 
 
 ## Structure du projet
 ```
