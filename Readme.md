@@ -16,7 +16,7 @@ mini-api/
 docker build -t mini-api:1.0 .
 ```
 Capture d'écran : 1
-
+![alt text](/screenshots/1.png)
 ---
 
 ## Étape 2 — Lancer le conteneur
@@ -25,14 +25,14 @@ Capture d'écran : 1
 docker run -d -p 5000:5000 --name api mini-api:1.0
 ```
 Capture d'écran : 2
-
+![alt text](/screenshots/2.png)
 
 ```bash
 docker rm api
 docker run -d -p 5001:5000 --name api mini-api:1.0
 ```
 Capture d'écran : 3
-
+![alt text](/screenshots/3.png)
 
 
 ---
@@ -54,9 +54,9 @@ docker ps
 ```bash
 curl http://localhost:5001/health
 ```
-![alt text](/screenshots/1.png)
+![alt text](/screenshots/4.png)
 Capture d'écran : 4
-
+![alt text](/screenshots/4.png)
 
 ---
 
@@ -68,7 +68,7 @@ docker logs api
 `
 
 Capture d'écran : 5
-
+![alt text](/screenshots/5.png)
 
 ---
 
@@ -80,7 +80,7 @@ ls /app
 ```
 
 Capture d'écran : 6
-
+![alt text](/screenshots/6.png)
 ---
 
 ## Étape 7 — Modifier le code et reconstruire
@@ -101,7 +101,7 @@ docker stop api && docker rm api
 docker rmi mini-api:1.0
 ```
 Capture d'écran : 7
-
+![alt text](/screenshots/7.png)
 
 
 ```bash
@@ -110,7 +110,7 @@ docker images
 ```
 
 Capture d'écran : 8
-
+![alt text](/screenshots/8.png)
 
 ---
 
