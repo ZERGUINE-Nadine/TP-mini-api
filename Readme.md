@@ -54,7 +54,7 @@ docker ps
 ```bash
 curl http://localhost:5001/health
 ```
-
+![alt text](/screenshots/1.png)
 Capture d'écran : 4
 
 
